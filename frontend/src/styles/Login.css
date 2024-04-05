@@ -1,0 +1,51 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .login-box {
+    background-color: #FFFFFF; /* HK White for the form background */
+    padding: 2rem;
+    border-radius: 10px; /* Slight rounding of corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This will center the child elements vertically */
+    position: relative; /* Ensures the box is positioned over the background */
+    z-index: 10;
+  }
+  
+  .login-logo img {
+    width: 180px;
+    margin-bottom: 2rem; /* Adjusted margin-bottom for consistency */
+  }
+  
+  .login-form {
+    width: 100%; /* Ensures form takes the full width of .login-box */
+    /* Additional specific styles for form elements */
+  }
+  
+  .register-prompt {
+    text-align: center; /* This centers the text */
+    font-size: 0.9rem;
+    color: #606060;
+    margin-top: 1rem; /* Space above the prompt */
+    width: 100%; /* Ensures full width of .login-box */
+  }
+  
+  .register-link {
+    color: #0000A0;
+    text-decoration: none;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  

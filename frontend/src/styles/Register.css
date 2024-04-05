@@ -1,0 +1,55 @@
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .register-box {
+    background-color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Adjust width if needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .register-logo img {
+    width: 180px;
+    margin-bottom: 2rem;
+  }
+  
+  .register-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .register-prompt {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #606060;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  .register-link, .login-link { /* Combined the styles if they are the same */
+    color: #0000A0;
+    text-decoration: none;
+  }
+  
+  .register-link:hover, .login-link:hover { /* Combined hover state as well */
+    text-decoration: underline;
+  }
+  
+  /* Make sure to add the rest of your specific styles for form elements, buttons, and inputs */
+  
